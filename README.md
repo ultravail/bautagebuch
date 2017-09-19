@@ -1,4 +1,4 @@
-# TW5-Dropbox
-TiddlyWiki Five in the Sky for Dropbox
+# Bautagebuch
+TiddlyWiki Five in the Sky for Dropbox (allows editing of TW5 files stored in Dropbox)
 
-https://twcloud.github.io/tw5-dropbox/
+https://ultravail.github.io/bautagebuch/
