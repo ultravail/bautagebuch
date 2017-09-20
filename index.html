@@ -61,6 +61,7 @@ twits.readFolder = function(path,parentNode) {
 	listParent.appendChild(document.createTextNode("Loading..."));
 	parentNode.appendChild(listParent);
 	// Read the top level directory
+	var selectedDocument = (window.location.hash || "").substr(1);
 	twits.client.stat(path,{readDir: true},function(error,stat,stats) {
 		if(error) {
 			return twits.showError(error);  // Something went wrong.
@@ -106,6 +107,9 @@ twits.readFolder = function(path,parentNode) {
 			}
 			listItem.appendChild(link);
 			listParent.appendChild(listItem);
+			if (selectedDocument && (selectedDocument == stat.name)) {
+				twits.onClickFolderEntry(link);
+			}
 		}
 	});
 };
