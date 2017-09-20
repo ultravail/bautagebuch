@@ -2124,19 +2124,19 @@ body {
   background: #149dcc;
 }
 .cid-qvNbqcZLAJ .progress1 .progressbar-number:before {
-  content: '100';
+  content: '95';
 }
 .cid-qvNbqcZLAJ .progress2 .progressbar-number:before {
-  content: '90';
+  content: '75';
 }
 .cid-qvNbqcZLAJ .progress3 .progressbar-number:before {
-  content: '80';
+  content: '29';
 }
 .cid-qvNbqcZLAJ .progress4 .progressbar-number:before {
-  content: '70';
+  content: '0';
 }
 .cid-qvNbqcZLAJ .progress5 .progressbar-number:before {
-  content: '60';
+  content: '0';
 }
 @media (min-width: 768px) {
   .cid-qvNbqcZLAJ .text-elements {
