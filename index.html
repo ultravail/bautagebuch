@@ -108,7 +108,7 @@ twits.readFolder = function(path,parentNode) {
 			listItem.appendChild(link);
 			listParent.appendChild(listItem);
 			if (selectedDocument && (selectedDocument == stat.name)) {
-				twits.onClickFolderEntry(link);
+				twits.onClickFolderEntry.apply(link, [{preventDefault: function() {}}]);
 			}
 		}
 	});
