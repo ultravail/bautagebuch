@@ -418,9 +418,13 @@ document.addEventListener("DOMContentLoaded",function(event) {
 <style type="text/css">
 
 /* These styles are in the body and so will be nuked when the parasite TiddlyWiki is loaded */
-
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", "DejaVu Sans", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 150px 0px;
 	padding: 0px;
 	text-align: center;
@@ -492,12 +496,12 @@ body {
 
 </style>
 <div id="twits-greeting">
-<h1>TiddlyWiki5 in the Sky<br>using Dropbox <span id="twits-dev"></span> <span class="twits-beta">beta</span> <br/>(by <a href="https://github.com/Arlen22">@Arlen22</a>*)</h1>
+<h1>Loading page <br>from Dropbox <span id="twits-dev"></span> <span class="twits-beta">beta</span></h1>
 <p>This app enables you to directly edit TiddlyWiki files stored in your Dropbox. It runs entirely in your browser so your data is never uploaded anywhere except directly to the dropbox account you are logged into. **</p>
 <p>If you are having trouble with accented characters in your TiddlyWiki files please see <a href="https://groups.google.com/d/topic/tiddlywiki/dXuJsnD8Irw/discussion" target="_blank">this discussion</a></p>
 <div id="twits-files"></div>
 <div id="twits-footer">
-<p>*Built by <a href="http://twitter.com/Jermolene">@Jermolene</a>, and modified by <a href="https://github.com/Arlen22">@Arlen22</a>.</p>
+<p>*Built by <a href="http://twitter.com/Jermolene">@Jermolene</a>, and modified by <a href="https://github.com/Arlen22">@Arlen22</a> and <a href="https://github.com/ultravail">@ultravail</a>.</p>
 <p>**This does not apply to any code in the TiddlyWiki itself, only to the code in this page.</p>
 </div>
 </div>
